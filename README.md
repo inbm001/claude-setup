@@ -8,6 +8,8 @@
 |---|---|
 | `CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `settings.permissions.json` | 내용의 `permissions` 키를 `~/.claude/settings.json` 에 병합 |
+| `modes.md` | 읽기용 — caveman / ponytail 켜고 끄기, 차이 비교 |
+| `prompts.md` | 읽기용 — 설정 적용 프롬프트, 새 프로젝트 시작 프롬프트 |
 
 `settings.permissions.json` 안의 경로 `/Users/inbm_mini` 는 그 맥의 사용자명으로 바꿀 것.
 
