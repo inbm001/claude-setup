@@ -1,0 +1,50 @@
+# claude-setup
+
+다른 맥에서 같은 답변 스타일과 허용 정책을 재현하기 위한 설정 모음.
+
+## 파일
+
+| 파일 | 놓을 곳 |
+|---|---|
+| `CLAUDE.md` | `~/.claude/CLAUDE.md` |
+| `settings.permissions.json` | 내용의 `permissions` 키를 `~/.claude/settings.json` 에 병합 |
+
+`settings.permissions.json` 안의 경로 `/Users/inbm_mini` 는 그 맥의 사용자명으로 바꿀 것.
+
+## 플러그인
+
+```bash
+claude plugin marketplace add JuliusBrussee/caveman
+```
+
+```bash
+claude plugin marketplace add DietrichGebert/ponytail
+```
+
+추가 후 설치:
+
+```bash
+claude plugin install caveman
+```
+
+```bash
+claude plugin install ponytail
+```
+
+| 플러그인 | 역할 |
+|---|---|
+| caveman | 말투 압축. 군더더기 제거 |
+| ponytail | 최소 구현 우선. 안 만드는 쪽을 먼저 검토 |
+
+## 적용 순서
+
+1. `CLAUDE.md` 복사
+2. `permissions` 병합
+3. 플러그인 설치
+4. Claude 완전 종료 후 재실행 — 설정은 세션 시작 시 한 번만 읽힘
+
+## 주의
+
+- 설정은 세션이 시작될 때 읽힌다. 실행 중인 대화에는 반영되지 않는다.
+- `deny` 목록은 지우지 말 것. `sudo`, 강제 푸시, 자격증명 파일 읽기를 막는다.
+- `defaultMode: acceptEdits` 는 파일 편집을 자동 승인한다. 신뢰하는 폴더에서만 쓸 것.
