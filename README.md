@@ -8,7 +8,7 @@
 |---|---|
 | `CLAUDE.md` | `~/.claude/CLAUDE.md` |
 | `settings.permissions.json` | 내용의 `permissions` 키를 `~/.claude/settings.json` 에 병합 |
-| `modes.md` | 읽기용 — caveman / ponytail 켜고 끄기, 차이 비교 |
+| `modes.md` | 읽기용 — ponytail 켜고 끄기, caveman 을 뺀 이유 |
 | `prompts.md` | 읽기용 — 설정 적용 프롬프트, 새 프로젝트 시작 프롬프트 |
 
 `settings.permissions.json` 안의 경로 `/Users/inbm_mini` 는 그 맥의 사용자명으로 바꿀 것.
@@ -16,17 +16,7 @@
 ## 플러그인
 
 ```bash
-claude plugin marketplace add JuliusBrussee/caveman
-```
-
-```bash
 claude plugin marketplace add DietrichGebert/ponytail
-```
-
-추가 후 설치:
-
-```bash
-claude plugin install caveman
 ```
 
 ```bash
@@ -35,8 +25,13 @@ claude plugin install ponytail
 
 | 플러그인 | 역할 |
 |---|---|
-| caveman | 말투 압축. 군더더기 제거 |
 | ponytail | 최소 구현 우선. 안 만드는 쪽을 먼저 검토 |
+
+caveman 은 쓰지 않는다. 이유는 `modes.md` 에 있다. 이미 깔았으면 지운다.
+
+```bash
+claude plugin uninstall caveman
+```
 
 ## 적용 순서
 
