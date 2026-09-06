@@ -47,14 +47,14 @@ claude plugin uninstall caveman
 설정 말고도 받아야 할 것이 있다.
 
 ```bash
-git clone https://github.com/inbm001/harmoniq
+git clone https://github.com/inbm001/harmoniq-claude
 ```
 
 ```bash
 git clone https://github.com/inbm001/progressions
 ```
 
-`progressions` 는 `harmoniq` 와 **나란히** 두어야 한다. `npm run inbox:pick` 이
+`progressions` 는 `harmoniq-claude` 와 **나란히** 두어야 한다. `npm run inbox:pick` 이
 `../progressions` 를 본다.
 
 ## 주의
