@@ -1,0 +1,6 @@
+- [Harmoniq VST project](harmoniq-vst-project.md) — new empty work dir; design canvas and React prototype live elsewhere
+- [Harmoniq design canvas](harmoniq-design-canvas.md) — 화면을 옮긴 캔버스 아티팩트 링크; 다시 보여 달라면 새로 만들지 말고 이 링크
+- [한국어 용어는 만들지 않는다](korean-terms-not-invented.md) — 조립한 전문어는 문법에 맞고 아무도 안 쓴다
+- [답변도 일반인 말투로](plain-korean-in-replies.md) — 용어에 쓴 기준을 대화에도 그대로
+- [브라우저는 ego-browser](use-ego-browser.md) — Harmoniq 는 "harmoniq 화면과 문서" 공간을 계속 재사용
+- [푸시할 때 칸반도](kanban-on-push.md) — 고치고 나서 "푸시했습니다 / 칸반 수정했습니다" 두 줄

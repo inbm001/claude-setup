@@ -10,6 +10,7 @@
 | `settings.permissions.json` | 내용의 `permissions` 키를 `~/.claude/settings.json` 에 병합 |
 | `modes.md` | 읽기용 — ponytail 켜고 끄기, caveman 을 뺀 이유 |
 | `prompts.md` | 읽기용 — 설정 적용 프롬프트, 새 프로젝트 시작 프롬프트 |
+| `memory/` | Claude 가 세션 사이에 들고 다니는 것. 놓을 곳은 `memory/README.md` |
 
 `settings.permissions.json` 안의 경로 `/Users/inbm_mini` 는 그 맥의 사용자명으로 바꿀 것.
 
@@ -37,8 +38,24 @@ claude plugin uninstall caveman
 
 1. `CLAUDE.md` 복사
 2. `permissions` 병합
-3. 플러그인 설치
-4. Claude 완전 종료 후 재실행 — 설정은 세션 시작 시 한 번만 읽힘
+3. `memory/` 복사 — 놓을 곳은 `memory/README.md`
+4. 플러그인 설치
+5. Claude 완전 종료 후 재실행 — 설정은 세션 시작 시 한 번만 읽힘
+
+## 다른 맥에서 이어서 하려면
+
+설정 말고도 받아야 할 것이 있다.
+
+```bash
+git clone https://github.com/inbm001/harmoniq
+```
+
+```bash
+git clone https://github.com/inbm001/progressions
+```
+
+`progressions` 는 `harmoniq` 와 **나란히** 두어야 한다. `npm run inbox:pick` 이
+`../progressions` 를 본다.
 
 ## 주의
 
