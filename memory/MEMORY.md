@@ -5,3 +5,4 @@
 - [브라우저는 ego-browser](use-ego-browser.md) — Harmoniq 는 "harmoniq 화면과 문서" 공간을 계속 재사용
 - [푸시할 때 칸반도](kanban-on-push.md) — 고치고 나서 "푸시했습니다 / 칸반 수정했습니다" 두 줄
 - [git 은 -C 없이](git-commands-without-C.md) — `git commit -F 파일` 꼴로 써야 허용 팝업이 안 뜬다
+- [집·사무실 인수인계](handoff-doc.md) — 시작에 docs/인수인계.md 읽고, 끝낼 때 고쳐서 푸시
