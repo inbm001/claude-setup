@@ -6,3 +6,5 @@
 - [푸시할 때 칸반도](kanban-on-push.md) — 고치고 나서 "푸시했습니다 / 칸반 수정했습니다" 두 줄
 - [git 은 -C 없이](git-commands-without-C.md) — `git commit -F 파일` 꼴로 써야 허용 팝업이 안 뜬다
 - [집·사무실 인수인계](handoff-doc.md) — 시작에 docs/인수인계.md 읽고, 끝낼 때 고쳐서 푸시
+- [어렵다고 하기 전에](check-before-saying-hard.md) — 깨우기 수단(백그라운드 작업 끝남 등)부터 늘어놓고 확인
+- [설계 질문은 서브 에이전트로](design-questions-to-subagent.md) — 사실만 적은 질문을 Opus 높음에게, 이 세션은 시험 · 실행
